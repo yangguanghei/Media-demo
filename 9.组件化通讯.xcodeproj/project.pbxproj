@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B05BAF28DC1E014B1A0B9465 /* libPods-9.组件化通讯.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A770F563C895E1BA94223A51 /* libPods-9.组件化通讯.a */; };
 		C1880D5824E4313F00E51E7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1880D5724E4313F00E51E7D /* AppDelegate.m */; };
 		C1880D5B24E4313F00E51E7D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1880D5A24E4313F00E51E7D /* SceneDelegate.m */; };
 		C1880D5E24E4313F00E51E7D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1880D5D24E4313F00E51E7D /* ViewController.m */; };
@@ -16,6 +17,12 @@
 		C1880D6924E4314400E51E7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1880D6824E4314400E51E7D /* main.m */; };
 		C1880D7324E4314400E51E7D /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1880D7224E4314400E51E7D /* _______Tests.m */; };
 		C1880D7E24E4314400E51E7D /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1880D7D24E4314400E51E7D /* _______UITests.m */; };
+		C1880D9724E4324100E51E7D /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1880D9324E4324100E51E7D /* ThirdViewController.m */; };
+		C1880D9824E4324100E51E7D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1880D9624E4324100E51E7D /* SecondViewController.m */; };
+		C1880D9B24E4326E00E51E7D /* CTMediator+TASecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C1880D9A24E4326D00E51E7D /* CTMediator+TASecondVC.m */; };
+		C1880D9E24E432AF00E51E7D /* Target_TASecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C1880D9D24E432AF00E51E7D /* Target_TASecondVC.m */; };
+		C1880DA124E4356A00E51E7D /* Target_TAThirdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C1880DA024E4356A00E51E7D /* Target_TAThirdVC.m */; };
+		C1880DA424E4357B00E51E7D /* CTMediator+TAThirdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C1880DA324E4357B00E51E7D /* CTMediator+TAThirdVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A770F563C895E1BA94223A51 /* libPods-9.组件化通讯.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-9.组件化通讯.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1880D5324E4313F00E51E7D /* 9.组件化通讯.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "9.组件化通讯.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1880D5624E4313F00E51E7D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C1880D5724E4313F00E51E7D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +62,20 @@
 		C1880D7924E4314400E51E7D /* 9.组件化通讯UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "9.组件化通讯UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1880D7D24E4314400E51E7D /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
 		C1880D7F24E4314400E51E7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1880D9224E4324100E51E7D /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		C1880D9324E4324100E51E7D /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		C1880D9524E4324100E51E7D /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C1880D9624E4324100E51E7D /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C1880D9924E4326D00E51E7D /* CTMediator+TASecondVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+TASecondVC.h"; sourceTree = "<group>"; };
+		C1880D9A24E4326D00E51E7D /* CTMediator+TASecondVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+TASecondVC.m"; sourceTree = "<group>"; };
+		C1880D9C24E432AF00E51E7D /* Target_TASecondVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_TASecondVC.h; sourceTree = "<group>"; };
+		C1880D9D24E432AF00E51E7D /* Target_TASecondVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_TASecondVC.m; sourceTree = "<group>"; };
+		C1880D9F24E4356A00E51E7D /* Target_TAThirdVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_TAThirdVC.h; sourceTree = "<group>"; };
+		C1880DA024E4356A00E51E7D /* Target_TAThirdVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_TAThirdVC.m; sourceTree = "<group>"; };
+		C1880DA224E4357B00E51E7D /* CTMediator+TAThirdVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+TAThirdVC.h"; sourceTree = "<group>"; };
+		C1880DA324E4357B00E51E7D /* CTMediator+TAThirdVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+TAThirdVC.m"; sourceTree = "<group>"; };
+		D1B07D6E01DD88795AADDC67 /* Pods-9.组件化通讯.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-9.组件化通讯.debug.xcconfig"; path = "Target Support Files/Pods-9.组件化通讯/Pods-9.组件化通讯.debug.xcconfig"; sourceTree = "<group>"; };
+		D88B6EA1BFC1AD20AA20813D /* Pods-9.组件化通讯.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-9.组件化通讯.release.xcconfig"; path = "Target Support Files/Pods-9.组件化通讯/Pods-9.组件化通讯.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B05BAF28DC1E014B1A0B9465 /* libPods-9.组件化通讯.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +111,8 @@
 				C1880D7124E4314400E51E7D /* 9.组件化通讯Tests */,
 				C1880D7C24E4314400E51E7D /* 9.组件化通讯UITests */,
 				C1880D5424E4313F00E51E7D /* Products */,
+				EC5DDB102D0F5D8881A8A10C /* Pods */,
+				F3371A6DD2AE27D68B71C942 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +135,8 @@
 				C1880D5A24E4313F00E51E7D /* SceneDelegate.m */,
 				C1880D5C24E4313F00E51E7D /* ViewController.h */,
 				C1880D5D24E4313F00E51E7D /* ViewController.m */,
+				C1880D9424E4324100E51E7D /* SecondVC(组件2) */,
+				C1880D9124E4324100E51E7D /* ThirdVC(组件3) */,
 				C1880D5F24E4313F00E51E7D /* Main.storyboard */,
 				C1880D6224E4314400E51E7D /* Assets.xcassets */,
 				C1880D6424E4314400E51E7D /* LaunchScreen.storyboard */,
@@ -137,6 +164,49 @@
 			path = "9.组件化通讯UITests";
 			sourceTree = "<group>";
 		};
+		C1880D9124E4324100E51E7D /* ThirdVC(组件3) */ = {
+			isa = PBXGroup;
+			children = (
+				C1880D9224E4324100E51E7D /* ThirdViewController.h */,
+				C1880D9324E4324100E51E7D /* ThirdViewController.m */,
+				C1880DA224E4357B00E51E7D /* CTMediator+TAThirdVC.h */,
+				C1880DA324E4357B00E51E7D /* CTMediator+TAThirdVC.m */,
+				C1880D9F24E4356A00E51E7D /* Target_TAThirdVC.h */,
+				C1880DA024E4356A00E51E7D /* Target_TAThirdVC.m */,
+			);
+			path = "ThirdVC(组件3)";
+			sourceTree = "<group>";
+		};
+		C1880D9424E4324100E51E7D /* SecondVC(组件2) */ = {
+			isa = PBXGroup;
+			children = (
+				C1880D9524E4324100E51E7D /* SecondViewController.h */,
+				C1880D9624E4324100E51E7D /* SecondViewController.m */,
+				C1880D9924E4326D00E51E7D /* CTMediator+TASecondVC.h */,
+				C1880D9A24E4326D00E51E7D /* CTMediator+TASecondVC.m */,
+				C1880D9C24E432AF00E51E7D /* Target_TASecondVC.h */,
+				C1880D9D24E432AF00E51E7D /* Target_TASecondVC.m */,
+			);
+			path = "SecondVC(组件2)";
+			sourceTree = "<group>";
+		};
+		EC5DDB102D0F5D8881A8A10C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1B07D6E01DD88795AADDC67 /* Pods-9.组件化通讯.debug.xcconfig */,
+				D88B6EA1BFC1AD20AA20813D /* Pods-9.组件化通讯.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F3371A6DD2AE27D68B71C942 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A770F563C895E1BA94223A51 /* libPods-9.组件化通讯.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1880D8224E4314400E51E7D /* Build configuration list for PBXNativeTarget "9.组件化通讯" */;
 			buildPhases = (
+				744ED40019210B57C8C98C01 /* [CP] Check Pods Manifest.lock */,
 				C1880D4F24E4313F00E51E7D /* Sources */,
 				C1880D5024E4313F00E51E7D /* Frameworks */,
 				C1880D5124E4313F00E51E7D /* Resources */,
@@ -262,15 +333,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		744ED40019210B57C8C98C01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-9.组件化通讯-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C1880D4F24E4313F00E51E7D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1880D9824E4324100E51E7D /* SecondViewController.m in Sources */,
 				C1880D5E24E4313F00E51E7D /* ViewController.m in Sources */,
+				C1880D9724E4324100E51E7D /* ThirdViewController.m in Sources */,
+				C1880DA124E4356A00E51E7D /* Target_TAThirdVC.m in Sources */,
 				C1880D5824E4313F00E51E7D /* AppDelegate.m in Sources */,
+				C1880D9B24E4326E00E51E7D /* CTMediator+TASecondVC.m in Sources */,
 				C1880D6924E4314400E51E7D /* main.m in Sources */,
+				C1880D9E24E432AF00E51E7D /* Target_TASecondVC.m in Sources */,
 				C1880D5B24E4313F00E51E7D /* SceneDelegate.m in Sources */,
+				C1880DA424E4357B00E51E7D /* CTMediator+TAThirdVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +539,7 @@
 		};
 		C1880D8324E4314400E51E7D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1B07D6E01DD88795AADDC67 /* Pods-9.组件化通讯.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +557,7 @@
 		};
 		C1880D8424E4314400E51E7D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D88B6EA1BFC1AD20AA20813D /* Pods-9.组件化通讯.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
