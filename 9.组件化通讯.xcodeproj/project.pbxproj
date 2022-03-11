@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B05BAF28DC1E014B1A0B9465 /* libPods-9.组件化通讯.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A770F563C895E1BA94223A51 /* libPods-9.组件化通讯.a */; };
+		09ABDBD852ABED9D1FF9FA84 /* Pods_9_______9______UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649C76ABC1A6CD1A4E3E6631 /* Pods_9_______9______UITests.framework */; };
+		5C81E533887007CF0CF435FB /* Pods_9______Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C739CD4C5EB1BB86CAF806 /* Pods_9______Tests.framework */; };
+		A1C62B9427DB41D400BAFC9C /* CTMediator+HandyTools.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C62B9027DB41D400BAFC9C /* CTMediator+HandyTools.m */; };
+		A1C62B9527DB41D400BAFC9C /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C62B9127DB41D400BAFC9C /* CTMediator.m */; };
 		C1880D5824E4313F00E51E7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1880D5724E4313F00E51E7D /* AppDelegate.m */; };
 		C1880D5B24E4313F00E51E7D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1880D5A24E4313F00E51E7D /* SceneDelegate.m */; };
 		C1880D5E24E4313F00E51E7D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1880D5D24E4313F00E51E7D /* ViewController.m */; };
@@ -43,7 +46,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A770F563C895E1BA94223A51 /* libPods-9.组件化通讯.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-9.组件化通讯.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02C739CD4C5EB1BB86CAF806 /* Pods_9______Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_9______Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1705EB0A1E4A2E09D1C5BF57 /* Pods_9______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_9______.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4754C079CB0D7B8329009FF8 /* Pods-9.组件化通讯Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-9.组件化通讯Tests.debug.xcconfig"; path = "Target Support Files/Pods-9.组件化通讯Tests/Pods-9.组件化通讯Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		649C76ABC1A6CD1A4E3E6631 /* Pods_9_______9______UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_9_______9______UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7363DA9D3B2556CA1C3A9D53 /* Pods-9.组件化通讯Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-9.组件化通讯Tests.release.xcconfig"; path = "Target Support Files/Pods-9.组件化通讯Tests/Pods-9.组件化通讯Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A1C62B9027DB41D400BAFC9C /* CTMediator+HandyTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+HandyTools.m"; sourceTree = "<group>"; };
+		A1C62B9127DB41D400BAFC9C /* CTMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTMediator.m; sourceTree = "<group>"; };
+		A1C62B9227DB41D400BAFC9C /* CTMediator+HandyTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+HandyTools.h"; sourceTree = "<group>"; };
+		A1C62B9327DB41D400BAFC9C /* CTMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMediator.h; sourceTree = "<group>"; };
 		C1880D5324E4313F00E51E7D /* 9.组件化通讯.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "9.组件化通讯.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1880D5624E4313F00E51E7D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C1880D5724E4313F00E51E7D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -74,8 +85,10 @@
 		C1880DA024E4356A00E51E7D /* Target_TAThirdVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_TAThirdVC.m; sourceTree = "<group>"; };
 		C1880DA224E4357B00E51E7D /* CTMediator+TAThirdVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+TAThirdVC.h"; sourceTree = "<group>"; };
 		C1880DA324E4357B00E51E7D /* CTMediator+TAThirdVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+TAThirdVC.m"; sourceTree = "<group>"; };
+		CD4D1C4D297550735D89C75C /* Pods-9.组件化通讯-9.组件化通讯UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-9.组件化通讯-9.组件化通讯UITests.debug.xcconfig"; path = "Target Support Files/Pods-9.组件化通讯-9.组件化通讯UITests/Pods-9.组件化通讯-9.组件化通讯UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D1B07D6E01DD88795AADDC67 /* Pods-9.组件化通讯.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-9.组件化通讯.debug.xcconfig"; path = "Target Support Files/Pods-9.组件化通讯/Pods-9.组件化通讯.debug.xcconfig"; sourceTree = "<group>"; };
 		D88B6EA1BFC1AD20AA20813D /* Pods-9.组件化通讯.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-9.组件化通讯.release.xcconfig"; path = "Target Support Files/Pods-9.组件化通讯/Pods-9.组件化通讯.release.xcconfig"; sourceTree = "<group>"; };
+		F62B431E9245A1408D2A8583 /* Pods-9.组件化通讯-9.组件化通讯UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-9.组件化通讯-9.组件化通讯UITests.release.xcconfig"; path = "Target Support Files/Pods-9.组件化通讯-9.组件化通讯UITests/Pods-9.组件化通讯-9.组件化通讯UITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +96,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B05BAF28DC1E014B1A0B9465 /* libPods-9.组件化通讯.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C81E533887007CF0CF435FB /* Pods_9______Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,12 +111,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09ABDBD852ABED9D1FF9FA84 /* Pods_9_______9______UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A1C62B8F27DB41D400BAFC9C /* CTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				A1C62B9027DB41D400BAFC9C /* CTMediator+HandyTools.m */,
+				A1C62B9127DB41D400BAFC9C /* CTMediator.m */,
+				A1C62B9227DB41D400BAFC9C /* CTMediator+HandyTools.h */,
+				A1C62B9327DB41D400BAFC9C /* CTMediator.h */,
+			);
+			path = CTMediator;
+			sourceTree = "<group>";
+		};
 		C1880D4A24E4313F00E51E7D = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +154,7 @@
 		C1880D5524E4313F00E51E7D /* 9.组件化通讯 */ = {
 			isa = PBXGroup;
 			children = (
+				A1C62B8F27DB41D400BAFC9C /* CTMediator */,
 				C1880D5624E4313F00E51E7D /* AppDelegate.h */,
 				C1880D5724E4313F00E51E7D /* AppDelegate.m */,
 				C1880D5924E4313F00E51E7D /* SceneDelegate.h */,
@@ -195,6 +221,10 @@
 			children = (
 				D1B07D6E01DD88795AADDC67 /* Pods-9.组件化通讯.debug.xcconfig */,
 				D88B6EA1BFC1AD20AA20813D /* Pods-9.组件化通讯.release.xcconfig */,
+				CD4D1C4D297550735D89C75C /* Pods-9.组件化通讯-9.组件化通讯UITests.debug.xcconfig */,
+				F62B431E9245A1408D2A8583 /* Pods-9.组件化通讯-9.组件化通讯UITests.release.xcconfig */,
+				4754C079CB0D7B8329009FF8 /* Pods-9.组件化通讯Tests.debug.xcconfig */,
+				7363DA9D3B2556CA1C3A9D53 /* Pods-9.组件化通讯Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -202,7 +232,9 @@
 		F3371A6DD2AE27D68B71C942 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A770F563C895E1BA94223A51 /* libPods-9.组件化通讯.a */,
+				1705EB0A1E4A2E09D1C5BF57 /* Pods_9______.framework */,
+				649C76ABC1A6CD1A4E3E6631 /* Pods_9_______9______UITests.framework */,
+				02C739CD4C5EB1BB86CAF806 /* Pods_9______Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -232,6 +264,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1880D8524E4314400E51E7D /* Build configuration list for PBXNativeTarget "9.组件化通讯Tests" */;
 			buildPhases = (
+				133AC9EF893BA89793BFD64E /* [CP] Check Pods Manifest.lock */,
 				C1880D6A24E4314400E51E7D /* Sources */,
 				C1880D6B24E4314400E51E7D /* Frameworks */,
 				C1880D6C24E4314400E51E7D /* Resources */,
@@ -250,6 +283,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1880D8824E4314400E51E7D /* Build configuration list for PBXNativeTarget "9.组件化通讯UITests" */;
 			buildPhases = (
+				C2931735680790A9312E2E14 /* [CP] Check Pods Manifest.lock */,
 				C1880D7524E4314400E51E7D /* Sources */,
 				C1880D7624E4314400E51E7D /* Frameworks */,
 				C1880D7724E4314400E51E7D /* Resources */,
@@ -334,6 +368,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		133AC9EF893BA89793BFD64E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-9.组件化通讯Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		744ED40019210B57C8C98C01 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -356,6 +412,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		C2931735680790A9312E2E14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-9.组件化通讯-9.组件化通讯UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -366,6 +444,8 @@
 				C1880D9824E4324100E51E7D /* SecondViewController.m in Sources */,
 				C1880D5E24E4313F00E51E7D /* ViewController.m in Sources */,
 				C1880D9724E4324100E51E7D /* ThirdViewController.m in Sources */,
+				A1C62B9527DB41D400BAFC9C /* CTMediator.m in Sources */,
+				A1C62B9427DB41D400BAFC9C /* CTMediator+HandyTools.m in Sources */,
 				C1880DA124E4356A00E51E7D /* Target_TAThirdVC.m in Sources */,
 				C1880D5824E4313F00E51E7D /* AppDelegate.m in Sources */,
 				C1880D9B24E4326E00E51E7D /* CTMediator+TASecondVC.m in Sources */,
@@ -543,7 +623,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 58GP5T8P44;
+				DEVELOPMENT_TEAM = 3D47N4555T;
 				INFOPLIST_FILE = "9.组件化通讯/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -561,7 +641,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 58GP5T8P44;
+				DEVELOPMENT_TEAM = 3D47N4555T;
 				INFOPLIST_FILE = "9.组件化通讯/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -575,6 +655,7 @@
 		};
 		C1880D8624E4314400E51E7D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4754C079CB0D7B8329009FF8 /* Pods-9.组件化通讯Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -595,6 +676,7 @@
 		};
 		C1880D8724E4314400E51E7D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7363DA9D3B2556CA1C3A9D53 /* Pods-9.组件化通讯Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -615,6 +697,7 @@
 		};
 		C1880D8924E4314400E51E7D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD4D1C4D297550735D89C75C /* Pods-9.组件化通讯-9.组件化通讯UITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 58GP5T8P44;
@@ -633,6 +716,7 @@
 		};
 		C1880D8A24E4314400E51E7D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F62B431E9245A1408D2A8583 /* Pods-9.组件化通讯-9.组件化通讯UITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 58GP5T8P44;

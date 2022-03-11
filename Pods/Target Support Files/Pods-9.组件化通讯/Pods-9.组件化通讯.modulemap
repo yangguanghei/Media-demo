@@ -1,0 +1,6 @@
+framework module Pods_9______ {
+  umbrella header "Pods-9.组件化通讯-umbrella.h"
+
+  export *
+  module * { export * }
+}
